@@ -16,7 +16,7 @@
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit
         </p>
 
-        <button class="w-full bg-[#4285F4] hover:bg-[#357ae8] text-white flex items-center justify-center gap-3 py-2.5 px-4 rounded shadow-sm transition-colors duration-200">
+        <a href="{{ route('auth.google') }}" class="w-full bg-[#4285F4] hover:bg-[#357ae8] text-white flex items-center justify-center gap-3 py-2.5 px-4 rounded shadow-sm transition-colors duration-200">
             <div class="bg-white p-1 rounded-sm flex items-center justify-center w-8 h-8">
                 <svg class="w-5 h-5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4" />
@@ -26,7 +26,7 @@
                 </svg>
             </div>
             <span class="font-medium text-sm">Sign in with Google</span>
-        </button>
+        </a>
 
     </div>
 
